@@ -7,8 +7,7 @@
 
 class Draw
 {
-	Rhombus *romb;
-
+	
 public:
 	void RombDraw(Rhombus *newRomb, HDC);
 };

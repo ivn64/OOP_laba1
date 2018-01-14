@@ -2,9 +2,8 @@
 
 using namespace std;
 
-void Draw::RombDraw(Rhombus *newRomb, HDC hdc)
+void Draw::RombDraw(Rhombus *romb, HDC hdc)
 {
-	romb = newRomb;
 	RGBTRIPLE frameСolor = romb->GetFrameСolor();
 	HPEN hRedPen = CreatePen(PS_SOLID, 5, RGB(frameСolor.rgbtRed, frameСolor.rgbtGreen, frameСolor.rgbtBlue));
 	// и выбираем его в контекст отображения,
