@@ -9,5 +9,5 @@ class Draw
 {
 	
 public:
-	void RombDraw(Rhombus *romb, HDC);
+	void RombDraw(Rhombus*, HDC);
 };
